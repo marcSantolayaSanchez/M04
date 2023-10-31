@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Exercicis de paràgrafs de Document Object Model</title>
+    <script src="./scripts/DOM1.js"></script>
+</head>
+
+<body>
+    <!--Ejercicio 1-->
+    <h1>EJERCICIO 1</h1>
+    <p id="text">Text a canviar amb JavaScript</p>
+    <div>
+        <button id="estiljs" onclick="estiljs()">Canvi d'estil</button>
+    </div>
+<!--Ejercicio 2-->
+    <h1>EJERCICIO 2</h1>
+    <form id="formulari1" onsubmit="prenValorForm()" action="javascript:prenValorForm">
+        Nom: <input type="text" name="nom" value="Marie"><br>
+        Cognom: <input type="text" name="cognom" value="Curie"><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!--Ejercicio 3-->
+    <h1>EJERCICIO 3</h1>
+    <p>Text a canviar amb JavaScript</p>
+    <p>Text a canviar amb JavaScript</p>
+    <p>Text a canviar amb JavaScript</p>
+    <p>Text a canviar amb JavaScript</p>
+    <div>
+        <button id="dom3" onclick="dom3()">Canvi d'estil</button>
+    </div>
+
+    <!--Ejercicio 4-->
+    <h1>EJERCICIO 4</h1>
+    <p><a id="itb" type="text/html" hreflang="ca" rel="nofollow" target="_self" href="https://www.itb.cat/">ITB</a></p>
+    <button onclick="obtenirAtributs()">Clica aqui per obtenir els atributs</button>
+
+
+    <!--Ejercicio 5-->
+    <h1>EJERCICIO 5</h1>
+    <table id="Taula" style.border="1">
+        <tr>
+            <td>fila 1 cel·la 1</td>
+            <td>fila 1 cel·la 2</td>
+        </tr>
+        <tr>
+            <td>Fila 2 cel·la 1</td>
+            <td>Fila 2 cel·la 2</td>
+        </tr>
+    </table><br>
+    <input type="button" onclick="insertarFila()" value="Inserta Fila">
+
+
+
+</body>
+
+</html>
